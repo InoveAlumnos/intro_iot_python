@@ -40,7 +40,7 @@ Debe aceptar cada una de las pantallas de advertencia que le aparecerá:
 ### 4 - Interactuar con la aplicación
 Cada vez que apague o encienda las luces o motores del Drone se verá reflejado en el dashboardiot creado para este curso:
 ```
-http://inoveiot.herokuapp.com/login
+http://dashboardiot.inovecode.com/login
 ```
 
 Para logearse utilice su nombre de usuario del campus y como password ingrese:
