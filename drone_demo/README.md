@@ -18,6 +18,13 @@ https://<ip_host_flask>:5010
 Para poder ejecutar esta aplicación, será necesario tener instalada la versión 3.7 de Python o superior.\
 Instale las librerias que se comentan en requirements.txt
 
+En caso de utilizar un venv, crearlo y lanzarlo con:
+```sh
+$ pip3 install virtualenv
+$ python -m virtualenv dev
+$ .\dev\Scripts\activate
+```
+
 En caso de que los mensajes desde el celular no lleguen al servidor, insalar eventlet:
 ```sh
 pip3 install eventlet==0.33.1
