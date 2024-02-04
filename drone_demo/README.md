@@ -16,7 +16,7 @@ https://<ip_host_flask>:5010
 
 # Pre-requisitos 📋
 Para poder ejecutar esta aplicación, será necesario tener instalada la versión 3.7 de Python o superior.\
-Instale las librerias que se comentan en requirements.txt
+Instale las librerias que se comentan en requirements.txt en la VM o en un venv:
 
 En caso de utilizar un venv, crearlo y lanzarlo con:
 ```sh
@@ -25,9 +25,9 @@ $ python -m virtualenv dev
 $ .\dev\Scripts\activate
 ```
 
-En caso de que los mensajes desde el celular no lleguen al servidor, insalar eventlet:
+__*NOTA:__ En caso de que Windows no deje ejecutar el venv por restricciones del sistema:
 ```sh
-pip3 install eventlet==0.33.1
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted -Force
 ```
 
 # Tópicos de MQTT
