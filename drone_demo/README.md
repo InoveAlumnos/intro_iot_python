@@ -29,6 +29,15 @@ __*NOTA:__ En caso de que Windows no deje ejecutar el venv por restricciones del
 ```sh
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted -Force
 ```
+Otro posible error en Windows relativo con engineio es:
+Instalar:
+```
+pip3 install eventlet==0.33.1
+```
+Y configurar SocketIO como:
+```
+socketio = SocketIO(app, async_mode="eventlet")
+```
 
 # Tópicos de MQTT
 Por defecto la aplicación busca conectarse a un broker MQTT local (localhost) en el puerto 1883. Los datos de telemetría de los sensores de la aplicación son:

@@ -38,7 +38,7 @@ config = dotenv_values()
 app = Flask(__name__)
 app.secret_key = 'ptSecret'
 app.config['SECRET_KEY'] = 'ptSecret'
-socketio = SocketIO(app, async_mode="eventlet")
+socketio = SocketIO(app)
 
 # En caso de que los mensajes desde el celular no lleguen al servidor
 # insalar eventlet:
